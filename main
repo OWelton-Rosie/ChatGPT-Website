@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Website</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #0073e6;
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+
+        /* Sections */
+        section {
+            padding: 2rem;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        section:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+
+        /* Features Section */
+        .features div {
+            margin: 1rem 0;
+        }
+
+        /* Testimonials */
+        .testimonial {
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .contact-form button {
+            background-color: #0073e6;
+            color: #fff;
+            border: none;
+            padding: 0.7rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .contact-form button:hover {
+            background-color: #005bb5;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>ChatGPT Website</h1>
+        <p>Your AI Assistant for Everything</p>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Features</h2>
+        <div>
+            <h3>AI for Everyone</h3>
+            <p>ChatGPT helps with learning, brainstorming, and creating with ease.</p>
+        </div>
+        <div>
+            <h3>Multilingual Support</h3>
+            <p>Communicate and get assistance in multiple languages.</p>
+        </div>
+        <div>
+            <h3>Customized Responses</h3>
+            <p>Tailor responses to fit your personal, professional, or academic needs.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <p>ChatGPT learns through advanced AI models and helps with your requests, from casual questions to in-depth problem-solving.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What People Say</h2>
+        <p class="testimonial">"ChatGPT is amazing! It helps me with everything from coding to planning trips." - User A</p>
+        <p class="testimonial">"My go-to tool for quick answers and insights. Highly recommend!" - User B</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ChatGPT Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
